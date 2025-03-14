@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রমজান স্পেশাল 100GB ফ্রি ডেটা</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Body Gradient Animation */
+        body {
+            min-height: 100vh;
+            background: linear-gradient(45deg, #0a3d4d, #2c786c, #ffd700);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 600px;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Header Section */
+        .header {
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Phone Input Section */
+        .phone-input {
+            margin: 2rem 0;
+        }
+
+        .phone-input input {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+        }
+
+        .phone-input input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background: linear-gradient(45deg, #ffd700, #ff8c00);
+            border: none;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            color: #0a3d4d;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .submit-btn::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: rotate(45deg);
+        }
+
+        /* Social Share Section */
+        .social-share {
+            margin-top: 2rem;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .social-icon {
+            font-size: 2rem;
+            color: white;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 1.5rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>🌙 রমজান উপলক্ষে 100GB ফ্রি ডেটা</h1>
+            <p>ফ্রি ডেটা পেতে এখনই রেজিস্টার করুন</p>
+        </div>
+
+        <!-- Phone Input Section -->
+        <div class="phone-input">
+            <input type="tel" placeholder="+8801XXXXXXXXX">
+            <button class="submit-btn">OTP পাঠান</button>
+        </div>
+
+        <!-- Social Share Section -->
+        <div class="social-share">
+            <p>৫ বন্ধুর সাথে শেয়ার করে আনলক করুন</p>
+            <div class="social-icons">
+                <i class="fab fa-whatsapp social-icon"></i>
+                <i class="fab fa-facebook-messenger social-icon"></i>
+                <i class="fab fa-instagram social-icon"></i>
+                <i class="fab fa-telegram social-icon"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
